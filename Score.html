@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score</title>
+  
+    <style>
+        body{
+            background-color: aqua;
+            text-align: center;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <a href="1.html"></a>
+    <a href="2.html"></a>
+    <a href="3.html"></a>
+    <a href="4.html"></a>
+    <a href="5.html"></a>
+    <script>
+        function submission(){
+            let score = 0;
+            let b = document.getElementById("B").checked;
+            let h = document.getElementById("H").checked;
+            let f = document.getElementById("F").checked;
+            let op = document.getElementById("OP").checked;
+            let it = document.getElementById("IT").checked;
+            let ot = document.getElementById("OT").checked;
+            let s = document.getElementById("S").checked;
+            let fc = document.getElementById("FC").checked;
+            let c = document.getElementById("C").checked;
+            let o = document.getElementById("O").checked;
+            let ao = document.getElementById("AO").checked;
+            let at = document.getElementById("AT").checked;
+            let pl = document.getElementById("PL").checked;
+            let liga = document.getElementById("LIGA").checked;
+            let sa = document.getElementById("SA").checked;
+if(h){
+    score++;
+    }
+if(it){
+        score++;
+ }
+
+ if(s){
+    score++;
+     }
+     if(at){
+            score++;
+            }
+
+            if(liga){
+    score++;
+    }
+    alert(`You have scored ${score} / 5`);
+    }
+    </script>
+</body>
+</html>
